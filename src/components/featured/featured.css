@@ -1,0 +1,23 @@
+.f-section {
+  @apply h-full w-full flex justify-center;
+}
+
+.f-container {
+  @apply h-full w-[85%] py-[20px];
+}
+
+.f-header {
+  @apply flex md:justify-between text-[#be123c] items-center py-4 space-x-12 sm:justify-between;
+}
+
+.f-header p {
+  @apply md:text-3xl text-2xl font-bold text-left text-black;
+}
+
+.f-header div {
+  @apply scale-110 cursor-pointer text-[14px] md:text-[18px];
+}
+
+.f-list {
+  @apply grid md:grid-cols-4 gap-6 sm:grid-cols-2 grid-cols-1;
+}

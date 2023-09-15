@@ -1,0 +1,35 @@
+.navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 86px;
+  align-items: center;
+}
+
+.navLogo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navLogo p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.navSign {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navSign p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: white;
+}

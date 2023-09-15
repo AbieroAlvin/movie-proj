@@ -1,0 +1,51 @@
+.landingPage {
+  @apply h-[60%] w-full;
+}
+
+.l-container {
+  object-fit: cover;
+  @apply h-[60vh] w-full bg-no-repeat bg-cover bg-center;
+}
+
+.l-movieContainer {
+  @apply flex justify-between items-center
+    h-full py-0 px-[100px] translate-y-[-2rem];
+}
+
+.l-movie-info {
+  @apply w-[404px] h-[285px] gap-4 flex flex-col;
+}
+
+.title {
+  @apply text-[2.5rem] font-bold leading-[40px] text-white tracking-tight;
+}
+
+.l-rating {
+  @apply flex justify-between;
+}
+
+.l-rating p {
+  @apply text-[12px] font-extralight leading-[12px] text-white;
+}
+
+.l-rating .imdb,
+.l-rating .tomato {
+  @apply flex gap-[20px] items-center;
+}
+
+.l-overview {
+  @apply text-[14px] font-medium leading-[18px] tracking-tighter text-left text-white;
+}
+
+.l-trailer {
+  @apply w-[179px] h-[40px] px-4 py-[6px] rounded-[6px] gap-2
+    bg-[#be123c] flex items-center justify-center text-white cursor-pointer duration-500;
+}
+
+.l-trailer p {
+  @apply text-[14px] font-bold leading-[24px] tracking-tighter;
+}
+
+.l-trailer:hover {
+  @apply bg-[#800625] scale-[0.98] duration-500;
+}

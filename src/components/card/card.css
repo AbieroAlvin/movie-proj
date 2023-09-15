@@ -1,0 +1,99 @@
+.movieCard {
+  width: 250px;
+  height: 490px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  gap: 12px;
+  border: 0.5px solid rgba(128, 128, 128, 0.052);
+  cursor: pointer;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.movieCard:hover {
+  box-shadow: 0px 10px 40px 7px rgba(128, 128, 128, 0.142);
+  transition: 0.5s ease-in-out;
+}
+
+.movie-image-container {
+  width: 250px;
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+}
+
+.movie-image {
+  width: 250px;
+  height: 370px;
+  transition: ease-in-out 0.5s;
+}
+
+.movie-image:hover {
+  scale: 1.02;
+  transition: ease-in-out 0.5s;
+}
+
+.movie-date {
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+.movie-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+
+  color: #111827;
+}
+
+.movie-rating {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  color: #111827;
+}
+
+.imdb,
+.tomato {
+  @apply flex gap-2 items-center;
+}
+
+.movie-rating p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+}
+
+.movie-genre {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #9ca3af;
+}
+
+.favourite {
+  position: absolute;
+  z-index: 100000000000000000000;
+  top: 3%;
+  right: 3%;
+  height: 24px;
+  width: 24px;
+  fill: rgba(199, 199, 199, 0.578);
+}
+
+.redFavourite {
+  position: absolute;
+  z-index: 100000000000000000000;
+  top: 3%;
+  right: 3%;
+  height: 24px;
+  width: 24px;
+  fill: rgba(255, 0, 0, 0.578);
+}
